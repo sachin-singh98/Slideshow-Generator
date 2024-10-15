@@ -18,8 +18,8 @@ $(window).on("load", function () {
 
   const endPoint = "https://cloud.appwrite.io/v1";
   const projectID = "670ca9e3000765980734";
-  const dbID = "670cac14002f48a8847d";
-  const collectionID = "670cac3e0038ed087029";
+  const dbID = "670e13a8000b4a363869";
+  const collectionID = "670e13b200072c481866";
   const bucketID = "670ce3bb0038c97bd758";
 
   const client = new Appwrite.Client()
