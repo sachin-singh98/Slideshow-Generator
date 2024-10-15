@@ -129,7 +129,7 @@ $(window).on("load", function () {
     const textOne = e.target.textOne.value;
     const textTwo = e.target.textTwo.value;
     const textThree = e.target.textThree.value;
-    e.target.reset();
     uploadData({ logo, image, textOne, textTwo, textThree });
+    e.target.reset();
   });
 });
